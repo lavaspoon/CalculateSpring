@@ -6,15 +6,15 @@ import lombok.Setter;
 @Getter @Setter
 public  class Member {
     private long id;
-    private String name;
+    private String username;
     private int age;
     //기본 생성자
     public Member() {
     }
 
     //생성자
-    public Member(String name, int age) {
-        this.name = name;
+    public Member(String username, int age) {
+        this.username = username;
         this.age = age;
     }
 }
